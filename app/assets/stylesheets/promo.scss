@@ -1,0 +1,271 @@
+// Place all the styles related to the Promo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+   font-family: 'Rothek';
+   src: url('Groteskly Yours - Rothek Bold 2.otf');
+}
+
+// html {
+//   background: url("Mask Group.svg") no-repeat center center;
+// background-size: cover;
+// height: 8320px;
+// display: flex;
+// }
+.gif {
+  width: 25vw;
+  left: 4vw;
+  top: 44vw;
+  position: absolute;
+}
+
+.img {
+  width: 85vw;
+  left: 48vw;
+  top: 90vw;
+  position: absolute;
+}
+.svg1 {
+  width: 20vw;
+  left: 10vw;
+  top: 290vw;
+  position: absolute;
+}
+.svg2 {
+  width: 22vw;
+  left: 40vw;
+  top: 293vw;
+  position: absolute;
+}
+.svg3 {
+  width: 18vw;
+left: 70vw;
+top: 295.5vw;
+position: absolute;
+}
+.img2 {
+  width: 70vw;
+  left: 13vw;
+  top: 343vw;
+  position: absolute;
+}
+.img3 {
+  width: 115vw;
+left: 25vw;
+top: 350vw;
+position: absolute;
+}
+.firsttext {
+     font-family: Rothek;
+font-style: normal;
+position: absolute;
+left: 197px;
+top: 3vw;
+font-weight: bold;
+font-size: 7vw;
+line-height: 240px;
+color: black;
+-webkit-text-stroke: 5px rgba(69, 247, 225, 1);;
+-webkit-text-fill-color: rgba(0,0,0,0);
+}
+.text2 {
+  position: absolute;
+  width: 890px;
+  height: 143px;
+  left: 199px;
+  top: 28vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: #45F7E1;
+}
+.text3 {
+  position: absolute;
+width: 337px;
+height: 450px;
+left: 57vw;
+top: 110vw;
+font-family: Rothek;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+}
+.secondtext {
+  position: absolute;
+width: 1408px;
+height: 320px;
+left: 27px;
+top: 156vw;
+font-family: Rothek;
+font-style: normal;
+font-weight: bold;
+font-size: 7vw;
+line-height: 210px;
+-webkit-text-stroke: 5px #45f7e1;
+-webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+.text4 {
+  position: absolute;
+  width: 971px;
+  height: 326px;
+  left: 198px;
+  top: 195vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: #45F7E1;
+}
+.thirdtext {
+  position: absolute;
+width: 1400px;
+height: 320px;
+left: 31px;
+top: 265vw;
+font-family: Rothek;
+font-style: normal;
+font-weight: bold;
+font-size: 7vw;
+line-height: 210px;
+-webkit-text-stroke: 5px #45f7e1;
+-webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+.text5 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 200px;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.text6 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 42vw;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.text7 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 69.5vw;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.text8 {
+  position: absolute;
+  width: 868px;
+  height: 321px;
+  left: 48px;
+  top: 410vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: black;
+}
+.emailtext {
+  position: absolute;
+  width: 788px;
+  height: 44px;
+  left: 48px;
+  top: 434vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  color: #45F7E1;
+}
+.link1 {
+  position: absolute;
+  width: 89px;
+  height: 31px;
+  left: 3vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.link2 {
+  position: absolute;
+  width: 150px;
+  height: 31px;
+  left: 12vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.link3 {
+  position: absolute;
+  width: 89px;
+  height: 31px;
+  left: 24vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.link4 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.link5 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.link6 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}

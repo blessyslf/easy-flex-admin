@@ -1,0 +1,70 @@
+<p id="notice"><%= notice %></p>
+<div class="link22">
+  <%= link_to "о проекте", about_path %>
+</div>
+<div class="link11">
+  <%= link_to "промо", promo_path %>
+</div>
+<div class="link33">
+  <%= link_to "афиша", posts_path %>
+</div>
+
+<div class="titlenew2">
+<h1>
+  <strong></strong>
+  <%= @post.title %>
+</h1>
+</div>
+
+  <strong></strong>
+<h4 class="form__block__title15">  <%= @post.name %></h4>
+
+<div class="showimg">
+<%= image_tag(@post.image.url, alt: 'Image') if @post.image? %>
+</div>
+
+
+
+<p>
+  <strong>Category:</strong>
+  <%= @post.category.name %>
+</p>
+
+
+  <strong></strong>
+<h4 class="form__block__title16">   <%= @post.content.html_safe %></h4>
+
+
+<h4 class="form__block__title18">Комментарии</h4>
+<%= render @post.comments %>
+<div class="back2">
+<%= link_to 'Назад', posts_path %> |
+</div>
+<div class="show2">
+  <% if user_signed_in? %>
+<%= link_to 'Редактировать', edit_post_path(@post) %> <% end %> </div>
+
+<p><%= @post.likes.count %> <%= (@post.likes.count) == 1 ? 'Like' : 'Likes'%></p>
+<% if user_signed_in? %>
+  <% pre_like = @post.likes.find { |like| like.user_id == current_user.id} %>
+  <% if pre_like %>
+    <%= button_to 'Unlike', post_like_path(@post, pre_like), method: :delete %>
+  <% else %>
+    <%= button_to 'Like', post_likes_path(@post), method: :post %>
+  <% end %>
+  <% pre_favorite = @post.favorites.find { |favorite| favorite.user_id == current_user.id} %>
+  <% if pre_favorite %>
+      <%= button_to 'Remove from Favorite', post_favorite_path(@post, pre_favorite), method: :delete %>
+  <% else %>
+      <%= button_to 'Add to Favorite', post_favorites_path(@post), method: :post %>
+  <% end %>
+<% end %>
+
+<h4 class="form__block__title17">
+Добавить комментарий:
+</h4>
+<% if user_signed_in? %>
+<%= render "comments/form" %>
+<% else %>
+<p>Please <%= link_to 'login', new_user_session_path %> or <%= link_to 'register', new_user_registration_path %> to comment.</p>
+<% end %>

@@ -1,0 +1,2732 @@
+@font-face {
+  font-family: 'Rothek';
+  src: url("Groteskly Yours - Rothek Bold 2.otf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("Montserrat-Bold.ttf");
+}
+
+/* line 22, app/assets/stylesheets/about.scss */
+.link1 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 33, app/assets/stylesheets/about.scss */
+.link2 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 44, app/assets/stylesheets/about.scss */
+.link3 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 55, app/assets/stylesheets/about.scss */
+.thinkdance {
+  position: absolute;
+  width: 1118px;
+  height: 222px;
+  left: 831px;
+  top: 55px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: normal;
+  -webkit-text-stroke: 4px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 69, app/assets/stylesheets/about.scss */
+.image {
+  width: 70vw;
+  left: 48vw;
+  top: 105vw;
+  position: absolute;
+}
+
+/* line 75, app/assets/stylesheets/about.scss */
+.image2 {
+  width: 70vw;
+  left: 58vw;
+  top: 441vw;
+  position: absolute;
+}
+
+/* line 81, app/assets/stylesheets/about.scss */
+.Gel {
+  width: 20vw;
+  left: 22vw;
+  top: 600vw;
+  position: absolute;
+}
+
+/* line 87, app/assets/stylesheets/about.scss */
+.Kar {
+  width: 20vw;
+  left: 58vw;
+  top: 600vw;
+  position: absolute;
+}
+
+/* line 93, app/assets/stylesheets/about.scss */
+.b1 {
+  width: 15vw;
+  left: 28vw;
+  top: 255vw;
+  position: absolute;
+}
+
+/* line 99, app/assets/stylesheets/about.scss */
+.b2 {
+  width: 15vw;
+  left: 55vw;
+  top: 255vw;
+  position: absolute;
+}
+
+/* line 105, app/assets/stylesheets/about.scss */
+.b3 {
+  width: 15vw;
+  left: 28vw;
+  top: 290vw;
+  position: absolute;
+}
+
+/* line 111, app/assets/stylesheets/about.scss */
+.b4 {
+  width: 16vw;
+  left: 55vw;
+  top: 290vw;
+  position: absolute;
+}
+
+/* line 117, app/assets/stylesheets/about.scss */
+.background {
+  min-height: 100%;
+  min-width: 350px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 126, app/assets/stylesheets/about.scss */
+.bigtext {
+  position: absolute;
+  width: 1090px;
+  height: 309px;
+  left: 245px;
+  top: 1581px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: normal;
+  color: #45F7E1;
+}
+
+/* line 139, app/assets/stylesheets/about.scss */
+.ttteeexst {
+  position: absolute;
+  width: 689px;
+  height: 309px;
+  left: 245px;
+  top: 2000px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 152, app/assets/stylesheets/about.scss */
+.ttteeexst2 {
+  position: absolute;
+  width: 713px;
+  height: 261px;
+  left: 929px;
+  top: 3060px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 165, app/assets/stylesheets/about.scss */
+.ttteeexst3 {
+  position: absolute;
+  width: 713px;
+  height: 261px;
+  left: 929px;
+  top: 3330px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 178, app/assets/stylesheets/about.scss */
+.bigtext2 {
+  position: absolute;
+  width: 1090px;
+  height: 309px;
+  left: 245px;
+  top: 4201px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: normal;
+  color: #45F7E1;
+}
+
+/* line 191, app/assets/stylesheets/about.scss */
+.ttteeexst4 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 465px;
+  top: 4900px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 205, app/assets/stylesheets/about.scss */
+.ttteeexst5 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 955px;
+  top: 4900px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 219, app/assets/stylesheets/about.scss */
+.ttteeexst6 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 465px;
+  top: 5525px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 233, app/assets/stylesheets/about.scss */
+.ttteeexst7 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 955px;
+  top: 5525px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 247, app/assets/stylesheets/about.scss */
+.verytext {
+  position: absolute;
+  width: 1408px;
+  height: 320px;
+  left: 27px;
+  top: 315vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 261, app/assets/stylesheets/about.scss */
+.verytext2 {
+  position: absolute;
+  width: 1408px;
+  height: 320px;
+  left: 27px;
+  top: 415vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 275, app/assets/stylesheets/about.scss */
+.verytext3 {
+  position: absolute;
+  width: 1408px;
+  height: 320px;
+  left: 27px;
+  top: 487vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 289, app/assets/stylesheets/about.scss */
+.verytext4 {
+  position: absolute;
+  width: 1408px;
+  height: 320px;
+  left: 27px;
+  top: 572vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 303, app/assets/stylesheets/about.scss */
+.ttteeexst8 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 400px;
+  top: 11275px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 317, app/assets/stylesheets/about.scss */
+.ttteeexst9 {
+  position: absolute;
+  width: 335px;
+  height: 184px;
+  left: 1045px;
+  top: 11275px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 331, app/assets/stylesheets/about.scss */
+.mech1 {
+  position: absolute;
+  width: 122px;
+  height: 45px;
+  left: 930px;
+  top: 9280px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #45F7E1;
+}
+
+/* line 345, app/assets/stylesheets/about.scss */
+.mech2 {
+  position: absolute;
+  width: 322px;
+  height: 45px;
+  left: 800px;
+  top: 9480px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #45F7E1;
+}
+
+/* line 359, app/assets/stylesheets/about.scss */
+.mech3 {
+  position: absolute;
+  width: 522px;
+  height: 45px;
+  left: 940px;
+  top: 9650px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #45F7E1;
+}
+
+/* line 373, app/assets/stylesheets/about.scss */
+.mech4 {
+  position: absolute;
+  width: 422px;
+  height: 45px;
+  left: 780px;
+  top: 9850px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #45F7E1;
+}
+
+/* line 387, app/assets/stylesheets/about.scss */
+.mech5 {
+  position: absolute;
+  width: 527px;
+  height: 45px;
+  left: 1010px;
+  top: 10050px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #45F7E1;
+}
+
+/* line 401, app/assets/stylesheets/about.scss */
+.func {
+  position: absolute;
+  width: 400px;
+  height: 46px;
+  left: 184px;
+  top: 4034px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 414, app/assets/stylesheets/about.scss */
+.func2 {
+  position: absolute;
+  width: 700px;
+  height: 46px;
+  left: 184px;
+  top: 4130px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 427, app/assets/stylesheets/about.scss */
+.func3 {
+  position: absolute;
+  width: 400px;
+  height: 46px;
+  left: 184px;
+  top: 4250px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 440, app/assets/stylesheets/about.scss */
+.func4 {
+  position: absolute;
+  width: 700px;
+  height: 46px;
+  left: 184px;
+  top: 4345px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 453, app/assets/stylesheets/about.scss */
+.aud {
+  position: absolute;
+  width: 512px;
+  height: 53px;
+  left: 409px;
+  top: 6461px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  color: #45F7E1;
+}
+
+/* line 467, app/assets/stylesheets/about.scss */
+.audd {
+  position: absolute;
+  width: 512px;
+  height: 153px;
+  left: 411px;
+  top: 6524px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 480, app/assets/stylesheets/about.scss */
+.aud2 {
+  position: absolute;
+  width: 513px;
+  height: 50px;
+  left: 1070px;
+  top: 6700px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  color: #45F7E1;
+}
+
+/* line 493, app/assets/stylesheets/about.scss */
+.audd2 {
+  position: absolute;
+  width: 512px;
+  height: 153px;
+  left: 1070px;
+  top: 6763px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 506, app/assets/stylesheets/about.scss */
+.aud3 {
+  position: absolute;
+  width: 512px;
+  height: 53px;
+  left: 409px;
+  top: 6950px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  color: #45F7E1;
+}
+
+/* line 520, app/assets/stylesheets/about.scss */
+.audd3 {
+  position: absolute;
+  width: 512px;
+  height: 153px;
+  left: 411px;
+  top: 7013px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 533, app/assets/stylesheets/about.scss */
+.aud4 {
+  position: absolute;
+  width: 512px;
+  height: 53px;
+  left: 869px;
+  top: 7100px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  color: #45F7E1;
+}
+
+/* line 547, app/assets/stylesheets/about.scss */
+.audd4 {
+  position: absolute;
+  width: 512px;
+  height: 153px;
+  left: 869px;
+  top: 7163px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 560, app/assets/stylesheets/about.scss */
+.kaifff {
+  position: absolute;
+  width: 841px;
+  height: 321px;
+  left: 56px;
+  top: 12100px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  color: #45F7E1;
+}
+
+/* line 574, app/assets/stylesheets/about.scss */
+.link444 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 12550px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 585, app/assets/stylesheets/about.scss */
+.link555 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 12550px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 596, app/assets/stylesheets/about.scss */
+.link666 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 12550px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+/* line 4, app/assets/stylesheets/comments.scss */
+.fieldddd {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 1120px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+/* line 16, app/assets/stylesheets/comments.scss */
+.form22 {
+  padding: 1px 15px;
+  padding-top: 1px;
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 48px;
+  top: 1155px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+/* line 30, app/assets/stylesheets/comments.scss */
+.field2 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 1245px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+/* line 42, app/assets/stylesheets/comments.scss */
+.form33 {
+  padding: 1px 15px;
+  padding-top: 10px;
+  position: absolute;
+  width: 450px;
+  height: 138px;
+  left: 48px;
+  top: 1280px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+/* line 56, app/assets/stylesheets/comments.scss */
+.actions2 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 430px;
+  top: 1480px;
+  border: none;
+  color: black;
+  border-radius: 9px;
+  border: none;
+  background-color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 70, app/assets/stylesheets/comments.scss */
+.ffield {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 1700px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #45F7E1;
+}
+
+/* line 82, app/assets/stylesheets/comments.scss */
+.ffield2 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 1740px;
+  left: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+/* line 94, app/assets/stylesheets/comments.scss */
+.deletecom {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 1740px;
+  left: 548px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #45F7E1;
+}
+
+/* line 106, app/assets/stylesheets/comments.scss */
+.back2 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 48px;
+  top: 1850px;
+  color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 116, app/assets/stylesheets/comments.scss */
+.show2 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 118px;
+  top: 1850px;
+  color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+@font-face {
+  font-family: 'Rothek';
+  src: url("Groteskly Yours - Rothek Bold 2.otf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("Montserrat-Medium.ttf");
+}
+
+/* line 13, app/assets/stylesheets/posts.scss */
+.titlenew {
+  position: absolute;
+  width: 638px;
+  height: 70px;
+  left: 48px;
+  top: 25px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #45F7E1;
+}
+
+/* line 26, app/assets/stylesheets/posts.scss */
+.titlenew2 {
+  position: absolute;
+  width: 638px;
+  height: 70px;
+  left: 48px;
+  top: 95px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #45F7E1;
+}
+
+/* line 39, app/assets/stylesheets/posts.scss */
+.titlenew3 {
+  position: absolute;
+  width: 638px;
+  height: 70px;
+  left: 48px;
+  top: 155px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #45F7E1;
+}
+
+/* line 52, app/assets/stylesheets/posts.scss */
+.form__block__title1 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 120px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 65, app/assets/stylesheets/posts.scss */
+.form__block__title2 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 245px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 78, app/assets/stylesheets/posts.scss */
+.form__block__title3 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 370px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 91, app/assets/stylesheets/posts.scss */
+.form__block__title4 {
+  position: absolute;
+  width: 529px;
+  height: 140px;
+  top: 795px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 104, app/assets/stylesheets/posts.scss */
+.form3 {
+  padding: 1px 15px;
+  padding-top: 1px;
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 48px;
+  top: 190px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+/* line 118, app/assets/stylesheets/posts.scss */
+.form2 {
+  padding: 1px 15px;
+  padding-top: 1px;
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 48px;
+  top: 320px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+/* line 132, app/assets/stylesheets/posts.scss */
+.form4 {
+  padding: 1px 15px;
+  padding-top: 19px;
+  position: absolute;
+  width: 470px;
+  height: 320px;
+  left: 48px;
+  top: 450px;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+/* line 146, app/assets/stylesheets/posts.scss */
+.imgloader {
+  position: absolute;
+  left: 48px;
+  top: 870px;
+  border: none;
+  color: white;
+}
+
+/* line 153, app/assets/stylesheets/posts.scss */
+.actions {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 430px;
+  top: 930px;
+  border: none;
+  color: black;
+  border-radius: 9px;
+  border: none;
+  background-color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 167, app/assets/stylesheets/posts.scss */
+.back {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 48px;
+  top: 959px;
+  color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 177, app/assets/stylesheets/posts.scss */
+.show {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 118px;
+  top: 959px;
+  color: #45F7E1;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 187, app/assets/stylesheets/posts.scss */
+.showimg {
+  position: absolute;
+  top: 250px;
+  left: 48px;
+}
+
+/* line 192, app/assets/stylesheets/posts.scss */
+.form__block__title15 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 160px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 206, app/assets/stylesheets/posts.scss */
+.form__block__title16 {
+  position: absolute;
+  width: 629px;
+  height: 140px;
+  top: 800px;
+  left: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: normal;
+  color: #FFFFFF;
+}
+
+/* line 219, app/assets/stylesheets/posts.scss */
+.form__block__title17 {
+  position: absolute;
+  width: 429px;
+  height: 140px;
+  top: 1030px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 231, app/assets/stylesheets/posts.scss */
+.form__block__title18 {
+  position: absolute;
+  width: 429px;
+  height: 140px;
+  top: 1580px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 243, app/assets/stylesheets/posts.scss */
+.link11 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 38px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 254, app/assets/stylesheets/posts.scss */
+.link22 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 38px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 265, app/assets/stylesheets/posts.scss */
+.link33 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 38px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 276, app/assets/stylesheets/posts.scss */
+.months {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  top: 260px;
+  left: 48px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+/* line 290, app/assets/stylesheets/posts.scss */
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 370px 5px;
+}
+
+/* line 295, app/assets/stylesheets/posts.scss */
+.posts__item {
+  display: flex;
+  flex-direction: column;
+  /* width: 390px; */
+  margin-right: 2vw;
+  margin-bottom: 6vw;
+  background: #FFFFFF;
+  border-radius: 9px;
+}
+
+/* line 306, app/assets/stylesheets/posts.scss */
+.posts__item__text {
+  padding: 4px 20px;
+}
+
+/* line 310, app/assets/stylesheets/posts.scss */
+.posts__item__text-theme {
+  font-family: Rothek;
+  padding-top: 17px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  color: #707070;
+}
+
+/* line 319, app/assets/stylesheets/posts.scss */
+.posts__item__text-title {
+  font-family: Rothek;
+  color: #1B1B1B;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  padding-top: 7px;
+  padding-bottom: 17px;
+  color: #000000;
+}
+
+/* line 330, app/assets/stylesheets/posts.scss */
+.posts__item__links {
+  display: flex;
+  /* margin-top: 28px; */
+  margin-bottom: 15px;
+  padding: 1px 6px;
+  font-family: Rothek;
+}
+
+/* line 336, app/assets/stylesheets/posts.scss */
+.posts__item__links a {
+  padding: 4px 20px;
+}
+
+/* line 338, app/assets/stylesheets/posts.scss */
+.posts__item__links a:nth-of-type(2) {
+  padding: 4px 18px;
+  margin-left: 62%;
+  color: #E0E0E3;
+}
+
+/* line 342, app/assets/stylesheets/posts.scss */
+.posts__item__links a:nth-of-type(2):hover {
+  color: #000000;
+}
+
+/* line 346, app/assets/stylesheets/posts.scss */
+.posts__item__links a:hover {
+  color: #000000;
+}
+
+/* line 351, app/assets/stylesheets/posts.scss */
+.actions10 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 48px;
+  top: 375px;
+  font-family: Rothek;
+  font-size: 18px;
+}
+@font-face {
+  font-family: 'Rothek';
+  src: url("Groteskly Yours - Rothek Bold 2.otf");
+}
+
+/* line 15, app/assets/stylesheets/promo.scss */
+.gif {
+  width: 25vw;
+  left: 4vw;
+  top: 44vw;
+  position: absolute;
+}
+
+/* line 22, app/assets/stylesheets/promo.scss */
+.img {
+  width: 85vw;
+  left: 48vw;
+  top: 90vw;
+  position: absolute;
+}
+
+/* line 28, app/assets/stylesheets/promo.scss */
+.svg1 {
+  width: 20vw;
+  left: 10vw;
+  top: 290vw;
+  position: absolute;
+}
+
+/* line 34, app/assets/stylesheets/promo.scss */
+.svg2 {
+  width: 22vw;
+  left: 40vw;
+  top: 293vw;
+  position: absolute;
+}
+
+/* line 40, app/assets/stylesheets/promo.scss */
+.svg3 {
+  width: 18vw;
+  left: 70vw;
+  top: 295.5vw;
+  position: absolute;
+}
+
+/* line 46, app/assets/stylesheets/promo.scss */
+.img2 {
+  width: 70vw;
+  left: 13vw;
+  top: 343vw;
+  position: absolute;
+}
+
+/* line 52, app/assets/stylesheets/promo.scss */
+.img3 {
+  width: 115vw;
+  left: 25vw;
+  top: 350vw;
+  position: absolute;
+}
+
+/* line 58, app/assets/stylesheets/promo.scss */
+.firsttext {
+  font-family: Rothek;
+  font-style: normal;
+  position: absolute;
+  left: 197px;
+  top: 3vw;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 240px;
+  color: black;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 71, app/assets/stylesheets/promo.scss */
+.text2 {
+  position: absolute;
+  width: 890px;
+  height: 143px;
+  left: 199px;
+  top: 28vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: #45F7E1;
+}
+
+/* line 84, app/assets/stylesheets/promo.scss */
+.text3 {
+  position: absolute;
+  width: 337px;
+  height: 450px;
+  left: 57vw;
+  top: 110vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+/* line 97, app/assets/stylesheets/promo.scss */
+.secondtext {
+  position: absolute;
+  width: 1408px;
+  height: 320px;
+  left: 27px;
+  top: 156vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 111, app/assets/stylesheets/promo.scss */
+.text4 {
+  position: absolute;
+  width: 971px;
+  height: 326px;
+  left: 198px;
+  top: 195vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: #45F7E1;
+}
+
+/* line 124, app/assets/stylesheets/promo.scss */
+.thirdtext {
+  position: absolute;
+  width: 1400px;
+  height: 320px;
+  left: 31px;
+  top: 265vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 210px;
+  -webkit-text-stroke: 5px #45f7e1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/* line 138, app/assets/stylesheets/promo.scss */
+.text5 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 200px;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 152, app/assets/stylesheets/promo.scss */
+.text6 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 42vw;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 166, app/assets/stylesheets/promo.scss */
+.text7 {
+  position: absolute;
+  width: 329px;
+  height: 140px;
+  left: 69.5vw;
+  top: 320vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 180, app/assets/stylesheets/promo.scss */
+.text8 {
+  position: absolute;
+  width: 868px;
+  height: 321px;
+  left: 48px;
+  top: 410vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 77px;
+  color: black;
+}
+
+/* line 193, app/assets/stylesheets/promo.scss */
+.emailtext {
+  position: absolute;
+  width: 788px;
+  height: 44px;
+  left: 48px;
+  top: 434vw;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  color: #45F7E1;
+}
+
+/* line 206, app/assets/stylesheets/promo.scss */
+.link1 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 217, app/assets/stylesheets/promo.scss */
+.link2 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 228, app/assets/stylesheets/promo.scss */
+.link3 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 53px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 239, app/assets/stylesheets/promo.scss */
+.link4 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 3vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 250, app/assets/stylesheets/promo.scss */
+.link5 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 12vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* line 261, app/assets/stylesheets/promo.scss */
+.link6 {
+  position: absolute;
+  width: 895px;
+  height: 31px;
+  left: 24vw;
+  top: 8250px;
+  font-family: Rothek;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+/* line 1, app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  color: #333;
+  margin: 33px;
+}
+
+/* line 6, app/assets/stylesheets/scaffolds.scss */
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif, Rothek;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 11, app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 16, app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #45F7E1;
+  text-decoration: none;
+}
+
+/* line 21, app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #45F7E1;
+}
+
+/* line 24, app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* line 28, app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 31, app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 34, app/assets/stylesheets/scaffolds.scss */
+div.field,
+div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 41, app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 46, app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 53, app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 62, app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 66, app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+@charset "UTF-8";
+@font-face {
+  font-family: 'Object Sanst';
+  src: url("ObjectSans-Heavy.otf");
+}
+
+@font-face {
+  font-family: 'Object Sans';
+  src: url("ObjectSans-HeavySlanted.otf");
+}
+
+@font-face {
+  font-family: 'Object Sans';
+  src: url("ObjectSans-Regular.otf");
+}
+
+/* line 21, app/assets/stylesheets/styleguide.scss */
+html {
+  font-size: 1vw;
+}
+
+/* line 24, app/assets/stylesheets/styleguide.scss */
+body {
+  background-color: #231D1D;
+}
+
+/* line 27, app/assets/stylesheets/styleguide.scss */
+.background {
+  min-height: 100%;
+  min-width: 350px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 36, app/assets/stylesheets/styleguide.scss */
+.title1 {
+  position: absolute;
+  left: 38vw;
+  top: 26vw;
+  font-family: Object Sans;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 4.44vw;
+  color: #FFFFFF;
+  width: 700px;
+  z-index: 1000;
+}
+
+/* line 49, app/assets/stylesheets/styleguide.scss */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top: 19vw;
+  left: 3vw;
+}
+
+/* Сайдбар ссылки */
+/* line 60, app/assets/stylesheets/styleguide.scss */
+.sidebar a {
+  font-family: Object Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.35vw;
+  line-height: 1.42vw;
+  color: #45F7E1;
+  display: block;
+  padding: 2px;
+  text-decoration: none;
+}
+
+/* line 71, app/assets/stylesheets/styleguide.scss */
+.sidebar a:hover:not(.active) {
+  color: white;
+}
+
+/* line 74, app/assets/stylesheets/styleguide.scss */
+.logos {
+  position: fixed;
+  width: 8.5vw;
+  height: 74.81px;
+  left: 59px;
+  top: 67px;
+}
+
+/* line 81, app/assets/stylesheets/styleguide.scss */
+p {
+  display: block;
+  font-size: 1.67vw;
+  z-index: 1;
+  font-family: Object Sans;
+  line-height: 1.74vw;
+  color: #FFFFFF;
+}
+
+/* line 90, app/assets/stylesheets/styleguide.scss */
+h1 {
+  display: block;
+  font-size: 4.44vw;
+  z-index: 1;
+  font-family: Object Sanst;
+  font-weight: 1500;
+  line-height: 4.58vw;
+  color: #FFFFFF;
+}
+
+/* line 99, app/assets/stylesheets/styleguide.scss */
+h2 {
+  display: block;
+  font-size: 3.33vw;
+  z-index: 1;
+  font-family: Object Sanst;
+  font-weight: 800;
+  line-height: 3.47vw;
+  color: #FFFFFF;
+}
+
+/* line 108, app/assets/stylesheets/styleguide.scss */
+.brend {
+  font-style: bold;
+  position: absolute;
+  width: 213px;
+  left: 26.53vw;
+  top: 70vw;
+  line-height: 4.58vw;
+}
+
+/* line 116, app/assets/stylesheets/styleguide.scss */
+.semant1 {
+  width: 293px;
+  position: absolute;
+  height: 245px;
+  top: 90vw;
+  font-family: Object Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3.33vw;
+  line-height: 4vw;
+  color: #FFFFFF;
+  left: 26.53vw;
+}
+
+/* line 129, app/assets/stylesheets/styleguide.scss */
+.semant2 {
+  width: 293px;
+  height: 245px;
+  top: 90vw;
+  position: absolute;
+  font-family: Object Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3.33vw;
+  line-height: 4vw;
+  color: #FFFFFF;
+  left: 63.13vw;
+  z-index: 5;
+}
+
+/* line 143, app/assets/stylesheets/styleguide.scss */
+.brend2 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 130vw;
+  line-height: 3.47vw;
+}
+
+/* line 151, app/assets/stylesheets/styleguide.scss */
+.brend3 {
+  position: absolute;
+  left: 26.53vw;
+  top: 140vw;
+}
+
+/* line 156, app/assets/stylesheets/styleguide.scss */
+.brend4 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 170vw;
+  line-height: 3.47vw;
+}
+
+/* line 164, app/assets/stylesheets/styleguide.scss */
+.brend5 {
+  position: absolute;
+  left: 26.53vw;
+  top: 180vw;
+}
+
+/* line 172, app/assets/stylesheets/styleguide.scss */
+.logo {
+  font-style: bold;
+  position: absolute;
+  width: 213px;
+  left: 26.53vw;
+  top: 200vw;
+  line-height: 4.58vw;
+}
+
+/* line 180, app/assets/stylesheets/styleguide.scss */
+.logo2 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 208vw;
+  line-height: 3.47vw;
+}
+
+/* line 188, app/assets/stylesheets/styleguide.scss */
+.logo3 {
+  position: absolute;
+  left: 26.53vw;
+  top: 218vw;
+}
+
+/* line 193, app/assets/stylesheets/styleguide.scss */
+.logos2 {
+  position: absolute;
+  width: 22.31vw;
+  left: 26.53vw;
+  top: 234vw;
+}
+
+/* line 199, app/assets/stylesheets/styleguide.scss */
+.logo4 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 248vw;
+  line-height: 3.47vw;
+}
+
+/* line 207, app/assets/stylesheets/styleguide.scss */
+.logo5 {
+  position: absolute;
+  left: 26.53vw;
+  top: 258vw;
+}
+
+/* line 212, app/assets/stylesheets/styleguide.scss */
+.logo6 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 268vw;
+  line-height: 3.47vw;
+}
+
+/* line 219, app/assets/stylesheets/styleguide.scss */
+.logo7 {
+  position: absolute;
+  left: 26.53vw;
+  top: 278vw;
+}
+
+/* line 224, app/assets/stylesheets/styleguide.scss */
+.logo8 {
+  position: absolute;
+  left: 26.53vw;
+  top: 288vw;
+  width: 21.31vw;
+}
+
+/* line 230, app/assets/stylesheets/styleguide.scss */
+.logo9 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 300vw;
+  line-height: 3.47vw;
+}
+
+/* line 238, app/assets/stylesheets/styleguide.scss */
+.logo10 {
+  position: absolute;
+  left: 26.53vw;
+  top: 308vw;
+}
+
+/* line 243, app/assets/stylesheets/styleguide.scss */
+.logo11 {
+  position: absolute;
+  width: 50vw;
+  left: 26.53vw;
+  top: 320vw;
+}
+
+/* line 249, app/assets/stylesheets/styleguide.scss */
+.logo12 {
+  position: absolute;
+  left: 26.53vw;
+  top: 333vw;
+}
+
+/* line 256, app/assets/stylesheets/styleguide.scss */
+.color {
+  font-style: bold;
+  position: absolute;
+  width: 202px;
+  left: 26.53vw;
+  top: 355vw;
+  line-height: 4.58vw;
+}
+
+/* line 264, app/assets/stylesheets/styleguide.scss */
+.color2 {
+  position: absolute;
+  width: 37vw;
+  left: 26.53vw;
+  top: 367vw;
+}
+
+/* line 270, app/assets/stylesheets/styleguide.scss */
+.color3 {
+  font-style: bold;
+  position: absolute;
+  width: 245px;
+  left: 26.53vw;
+  top: 379vw;
+  line-height: 3.47vw;
+}
+
+/* line 278, app/assets/stylesheets/styleguide.scss */
+.color4 {
+  position: absolute;
+  width: 20vw;
+  left: 26.53vw;
+  top: 389vw;
+}
+
+/* line 284, app/assets/stylesheets/styleguide.scss */
+.color5 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 399vw;
+  line-height: 3.47vw;
+}
+
+/* line 291, app/assets/stylesheets/styleguide.scss */
+.color6 {
+  position: absolute;
+  width: 31vw;
+  left: 26.53vw;
+  top: 409vw;
+}
+
+/* line 299, app/assets/stylesheets/styleguide.scss */
+.typo {
+  font-style: bold;
+  position: absolute;
+  width: 441px;
+  left: 26.53vw;
+  top: 439vw;
+  line-height: 4.58vw;
+}
+
+/* line 307, app/assets/stylesheets/styleguide.scss */
+.typo2 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 447vw;
+  line-height: 3.47vw;
+}
+
+/* line 314, app/assets/stylesheets/styleguide.scss */
+.typo3 {
+  position: absolute;
+  width: 30vw;
+  left: 26.53vw;
+  top: 457vw;
+}
+
+/* line 320, app/assets/stylesheets/styleguide.scss */
+.typo4 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 462vw;
+  line-height: 3.47vw;
+}
+
+/* line 327, app/assets/stylesheets/styleguide.scss */
+.typo5 {
+  position: absolute;
+  width: 50vw;
+  left: 26.53vw;
+  top: 472vw;
+}
+
+/* line 335, app/assets/stylesheets/styleguide.scss */
+.grid {
+  font-style: bold;
+  position: absolute;
+  width: 202px;
+  left: 26.53vw;
+  top: 503vw;
+  line-height: 4.58vw;
+}
+
+/* line 343, app/assets/stylesheets/styleguide.scss */
+.grid2 {
+  position: absolute;
+  width: 22vw;
+  left: 26.53vw;
+  top: 514vw;
+}
+
+/* line 349, app/assets/stylesheets/styleguide.scss */
+.grid3 {
+  position: absolute;
+  left: 26.53vw;
+  top: 540vw;
+}
+
+/* line 354, app/assets/stylesheets/styleguide.scss */
+.grid4 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 551vw;
+  line-height: 3.47vw;
+}
+
+/* line 361, app/assets/stylesheets/styleguide.scss */
+.grid5 {
+  position: absolute;
+  width: 36vw;
+  left: 26.53vw;
+  top: 561vw;
+}
+
+/* line 367, app/assets/stylesheets/styleguide.scss */
+.grid6 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 603vw;
+  line-height: 4.58vw;
+}
+
+/* line 374, app/assets/stylesheets/styleguide.scss */
+.grid7 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 611vw;
+  line-height: 3.47vw;
+}
+
+/* line 381, app/assets/stylesheets/styleguide.scss */
+.grid8 {
+  position: absolute;
+  width: 30vw;
+  left: 26.53vw;
+  top: 621vw;
+}
+
+/* line 387, app/assets/stylesheets/styleguide.scss */
+.grid9 {
+  position: absolute;
+  width: 10vw;
+  left: 26.53vw;
+  top: 625vw;
+}
+
+/* line 393, app/assets/stylesheets/styleguide.scss */
+.grid10 {
+  position: absolute;
+  width: 10vw;
+  left: 39.53vw;
+  top: 625vw;
+}
+
+/* line 399, app/assets/stylesheets/styleguide.scss */
+.grid11 {
+  position: absolute;
+  width: 10vw;
+  left: 52.53vw;
+  top: 625vw;
+}
+
+/* line 407, app/assets/stylesheets/styleguide.scss */
+.photo {
+  font-style: bold;
+  position: absolute;
+  width: 202px;
+  left: 26.53vw;
+  top: 645vw;
+  line-height: 4.58vw;
+}
+
+/* line 415, app/assets/stylesheets/styleguide.scss */
+.photo2 {
+  position: absolute;
+  left: 26.53vw;
+  top: 655vw;
+}
+
+/* line 420, app/assets/stylesheets/styleguide.scss */
+.photo3 {
+  position: absolute;
+  left: 26.53vw;
+  top: 664vw;
+}
+
+/* line 425, app/assets/stylesheets/styleguide.scss */
+.photo4 {
+  position: absolute;
+  width: 24vw;
+  left: 26.53vw;
+  top: 680vw;
+}
+
+/* line 431, app/assets/stylesheets/styleguide.scss */
+.photo5 {
+  position: absolute;
+  width: 10vw;
+  left: 54.53vw;
+  top: 680vw;
+}
+
+/* line 437, app/assets/stylesheets/styleguide.scss */
+.photo6 {
+  position: absolute;
+  width: 10vw;
+  left: 65.53vw;
+  top: 680vw;
+}
+
+/* line 443, app/assets/stylesheets/styleguide.scss */
+.photo7 {
+  position: absolute;
+  width: 10vw;
+  left: 76.53vw;
+  top: 680vw;
+}
+
+/* line 449, app/assets/stylesheets/styleguide.scss */
+.photo8 {
+  position: absolute;
+  left: 26.53vw;
+  top: 698vw;
+}
+
+/* line 454, app/assets/stylesheets/styleguide.scss */
+.photo9 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 705vw;
+  line-height: 3.47vw;
+}
+
+/* line 461, app/assets/stylesheets/styleguide.scss */
+.photo10 {
+  position: absolute;
+  left: 26.53vw;
+  top: 713vw;
+}
+
+/* line 466, app/assets/stylesheets/styleguide.scss */
+.photo11 {
+  position: absolute;
+  width: 19.50vw;
+  left: 26.53vw;
+  top: 719vw;
+}
+
+/* line 472, app/assets/stylesheets/styleguide.scss */
+.photo12 {
+  position: absolute;
+  width: 19.50vw;
+  left: 50vw;
+  top: 719vw;
+}
+
+/* line 478, app/assets/stylesheets/styleguide.scss */
+.photo13 {
+  position: absolute;
+  left: 26.53vw;
+  top: 752vw;
+}
+
+/* line 483, app/assets/stylesheets/styleguide.scss */
+.photo14 {
+  position: absolute;
+  width: 19.50vw;
+  left: 26.53vw;
+  top: 759vw;
+}
+
+/* line 489, app/assets/stylesheets/styleguide.scss */
+.photo15 {
+  position: absolute;
+  width: 19.50vw;
+  left: 50vw;
+  top: 759vw;
+}
+
+/* line 495, app/assets/stylesheets/styleguide.scss */
+.photo16 {
+  position: absolute;
+  width: 19.50vw;
+  left: 74vw;
+  top: 759vw;
+}
+
+/* line 501, app/assets/stylesheets/styleguide.scss */
+.photo17 {
+  position: absolute;
+  left: 26.53vw;
+  top: 792vw;
+}
+
+/* line 506, app/assets/stylesheets/styleguide.scss */
+.photo18 {
+  position: absolute;
+  width: 19.50vw;
+  left: 26.53vw;
+  top: 799vw;
+}
+
+/* line 512, app/assets/stylesheets/styleguide.scss */
+.photo19 {
+  position: absolute;
+  width: 19.50vw;
+  left: 50vw;
+  top: 799vw;
+}
+
+/* line 520, app/assets/stylesheets/styleguide.scss */
+.graph {
+  font-style: bold;
+  position: absolute;
+  width: 202px;
+  left: 26.53vw;
+  top: 835vw;
+  line-height: 4.58vw;
+}
+
+/* line 528, app/assets/stylesheets/styleguide.scss */
+.graph2 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 843vw;
+  line-height: 3.47vw;
+}
+
+/* line 535, app/assets/stylesheets/styleguide.scss */
+.graph3 {
+  position: absolute;
+  left: 26.53vw;
+  top: 851vw;
+}
+
+/* line 540, app/assets/stylesheets/styleguide.scss */
+.graph4 {
+  position: absolute;
+  width: 53vw;
+  left: 26.53vw;
+  top: 867vw;
+}
+
+/* line 546, app/assets/stylesheets/styleguide.scss */
+.graph5 {
+  position: absolute;
+  width: 13vw;
+  left: 80vw;
+  top: 847vw;
+}
+
+/* line 552, app/assets/stylesheets/styleguide.scss */
+.graph6 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 890vw;
+  line-height: 3.47vw;
+}
+
+/* line 559, app/assets/stylesheets/styleguide.scss */
+.graph7 {
+  position: absolute;
+  left: 26.53vw;
+  top: 898vw;
+}
+
+/* line 564, app/assets/stylesheets/styleguide.scss */
+.graph8 {
+  position: absolute;
+  width: 11.5vw;
+  left: 26.53vw;
+  top: 905vw;
+}
+
+/* line 570, app/assets/stylesheets/styleguide.scss */
+.graph9 {
+  position: absolute;
+  width: 11.5vw;
+  left: 41vw;
+  top: 905vw;
+}
+
+/* line 576, app/assets/stylesheets/styleguide.scss */
+.graph10 {
+  position: absolute;
+  width: 11.5vw;
+  left: 56vw;
+  top: 905vw;
+}
+
+/* line 582, app/assets/stylesheets/styleguide.scss */
+.graph11 {
+  position: absolute;
+  left: 26.53vw;
+  top: 924vw;
+}
+
+/* line 587, app/assets/stylesheets/styleguide.scss */
+.graph12 {
+  position: absolute;
+  width: 10vw;
+  left: 26.53vw;
+  top: 957vw;
+}
+
+/* line 593, app/assets/stylesheets/styleguide.scss */
+.graph13 {
+  position: absolute;
+  width: 10vw;
+  left: 46vw;
+  top: 957vw;
+}
+
+/* line 599, app/assets/stylesheets/styleguide.scss */
+.graph14 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 969vw;
+}
+
+/* line 605, app/assets/stylesheets/styleguide.scss */
+.graph15 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 978vw;
+  line-height: 3.47vw;
+}
+
+/* line 612, app/assets/stylesheets/styleguide.scss */
+.graph16 {
+  position: absolute;
+  left: 26.53vw;
+  top: 987vw;
+}
+
+/* line 617, app/assets/stylesheets/styleguide.scss */
+.graph17 {
+  position: absolute;
+  width: 17vw;
+  left: 26.53vw;
+  top: 998vw;
+}
+
+/* line 623, app/assets/stylesheets/styleguide.scss */
+.graph18 {
+  position: absolute;
+  width: 17vw;
+  left: 47vw;
+  top: 998vw;
+}
+
+/* line 631, app/assets/stylesheets/styleguide.scss */
+.tone {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 1025vw;
+  line-height: 4.58vw;
+}
+
+/* line 638, app/assets/stylesheets/styleguide.scss */
+.tone2 {
+  position: absolute;
+  left: 26.53vw;
+  top: 1035vw;
+}
+
+/* line 645, app/assets/stylesheets/styleguide.scss */
+.merch {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 1067vw;
+  line-height: 4.58vw;
+}
+
+/* line 652, app/assets/stylesheets/styleguide.scss */
+.merch2 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1081vw;
+}
+
+/* line 658, app/assets/stylesheets/styleguide.scss */
+.merch3 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1081vw;
+}
+
+/* line 664, app/assets/stylesheets/styleguide.scss */
+.merch4 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1105vw;
+}
+
+/* line 670, app/assets/stylesheets/styleguide.scss */
+.merch5 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1105vw;
+}
+
+/* line 676, app/assets/stylesheets/styleguide.scss */
+.merch6 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1140vw;
+}
+
+/* line 682, app/assets/stylesheets/styleguide.scss */
+.merch7 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1140vw;
+}
+
+/* line 688, app/assets/stylesheets/styleguide.scss */
+.merch8 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1192vw;
+}
+
+/* line 694, app/assets/stylesheets/styleguide.scss */
+.merch9 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1187vw;
+}
+
+/* line 700, app/assets/stylesheets/styleguide.scss */
+.merch10 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1216vw;
+}
+
+/* line 706, app/assets/stylesheets/styleguide.scss */
+.merch11 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1215vw;
+}
+
+/* line 712, app/assets/stylesheets/styleguide.scss */
+.merch12 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1266vw;
+}
+
+/* line 718, app/assets/stylesheets/styleguide.scss */
+.merch13 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1266vw;
+}
+
+/* line 724, app/assets/stylesheets/styleguide.scss */
+.merch14 {
+  position: absolute;
+  width: 33.5vw;
+  left: 26.53vw;
+  top: 1293vw;
+}
+
+/* line 730, app/assets/stylesheets/styleguide.scss */
+.merch15 {
+  position: absolute;
+  width: 33.5vw;
+  left: 62vw;
+  top: 1293vw;
+}
+
+/* line 736, app/assets/stylesheets/styleguide.scss */
+.merch16 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 1330vw;
+  line-height: 3.47vw;
+}
+
+/* line 743, app/assets/stylesheets/styleguide.scss */
+.merch17 {
+  position: absolute;
+  width: 35vw;
+  left: 24vw;
+  top: 1340vw;
+}
+
+/* line 749, app/assets/stylesheets/styleguide.scss */
+.merch18 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 26.53vw;
+  top: 1390vw;
+  line-height: 3.47vw;
+}
+
+/* line 757, app/assets/stylesheets/styleguide.scss */
+.merch19 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 50vw;
+  top: 1390vw;
+  line-height: 3.47vw;
+}
+
+/* line 765, app/assets/stylesheets/styleguide.scss */
+.merch20 {
+  font-style: bold;
+  position: absolute;
+  width: 58vw;
+  left: 26.53vw;
+  top: 1435vw;
+  line-height: 3.47vw;
+}
+
+/* line 773, app/assets/stylesheets/styleguide.scss */
+.merch21 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 26.53vw;
+  top: 1472vw;
+  line-height: 3.47vw;
+}
+
+/* line 781, app/assets/stylesheets/styleguide.scss */
+.merch22 {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 1520vw;
+  line-height: 3.47vw;
+}
+
+/* line 788, app/assets/stylesheets/styleguide.scss */
+.merch23 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 26.53vw;
+  top: 1533vw;
+  line-height: 3.47vw;
+}
+
+/* line 796, app/assets/stylesheets/styleguide.scss */
+.merch24 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 50vw;
+  top: 1533vw;
+  line-height: 3.47vw;
+}
+
+/* line 804, app/assets/stylesheets/styleguide.scss */
+.merch25 {
+  font-style: bold;
+  position: absolute;
+  width: 19vw;
+  left: 26.53vw;
+  top: 1563vw;
+  line-height: 3.47vw;
+}
+
+/* line 814, app/assets/stylesheets/styleguide.scss */
+.footer {
+  position: absolute;
+  left: 50vw;
+  top: 1613vw;
+  padding-bottom: 50px;
+}
+
+/* line 820, app/assets/stylesheets/styleguide.scss */
+.footer2 {
+  position: absolute;
+  left: 3vw;
+  top: 1613vw;
+  padding-bottom: 50px;
+}
+/* line 4, app/assets/stylesheets/subscribers.scss */
+.placeholder {
+  padding: 1px 15px;
+  position: absolute;
+  width: 411px;
+  height: 52px;
+  left: 48px;
+  top: 445vw;
+  background: #FFFFFF;
+  border-radius: 9px;
+  border: none;
+  font-family: Rothek;
+  font-size: 18px;
+}
+
+/* line 18, app/assets/stylesheets/subscribers.scss */
+.button {
+  position: absolute;
+  width: 164px;
+  height: 54px;
+  left: 505px;
+  top: 445vw;
+  border: none;
+  font-family: Rothek;
+  font-size: 18px;
+  color: white;
+  background: #000000;
+  border-radius: 9px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*# sourceMappingURL=application.css-d009df653f9911576e38673e0237ac4b1b981dd3d68a888fb0eecb44b793b88b.map */

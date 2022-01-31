@@ -1,0 +1,27 @@
+
+	<b></b>
+
+
+<div class="ffield">	<p>
+  <b>Commenter:</b>
+  <%= User.find(comment.user_id).email %>
+</p></div>
+
+
+	<b></b>
+	<div class="ffield2">
+	<%= comment.body %>
+</div>
+
+
+
+<div class="deletecom">
+	
+	<% if user_signed_in? && current_user.isadmin == true %>
+<p>
+  <%= link_to 'Destroy Comment', [comment.post, comment],
+               :confirm => 'Are you sure?',
+               :method => :delete %>
+</p>
+<% end %>
+</div>

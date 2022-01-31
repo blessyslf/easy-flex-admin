@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Классы</h1>
+
+<div class="link2">
+  <%= link_to "о проекте", about_path %>
+</div>
+<div class="link1">
+  <%= link_to "промо", promo_path %>
+</div>
+<div class="link3">
+  <%= link_to "афиша", posts_path %>
+</div>
+<div class="link333">
+<%= link_to "классы", directions_path %>
+</div>
+
+<% if user_signed_in? && current_user.isadmin == true %>
+
+<%= link_to 'Новый класс', new_direction_path %>
+<% end %>
+
+<tbody class="directions">
+
+  <% @directions.each do |direction| %>
+  <td>
+
+  <td><%= direction.category.name %></td>
+    <tr class="posts__item">
+<td><%= post.content.html_safe %></td>
+      <td class="posts__item__text posts__item__text-theme"><%= direction.name %></td>
+       <td class="posts__item__text posts__item__text-title"><%= direction.title %></td>
+
+
+<td class="posts__item__links">
+
+        <%= link_to 'Открыть', direction, :class =>"link" %>
+
+<% if user_signed_in? && current_user.isadmin == true %>
+
+      <%= link_to 'Изменить', edit_direction_path(post), :class =>"link" %>
+
+
+      <%= link_to 'Удалить', direction, method: :delete, data: { confirm: 'Are you sure?' }, :class =>"link" %>
+<% end %>
+    </td>
+
+    </tr>
+
+</tbody>
+</table>
+
+
+<% end %>

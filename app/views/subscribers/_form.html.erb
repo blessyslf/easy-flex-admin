@@ -1,0 +1,7 @@
+
+
+  <% @subscriber = Subscriber.new %>
+  <%= form_for @subscriber do |f| %>
+  <%= f.email_field :email, :class => "placeholder", placeholder: "Email"  %>
+    <%= f.submit "хочу флексить", :class => "button"%>
+    <% end %>

@@ -1,0 +1,825 @@
+// Place all the styles related to the Styleguide controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+   font-family: 'Object Sanst';
+   src: url('ObjectSans-Heavy.otf');
+}
+@font-face {
+   font-family: 'Object Sans';
+   src: url('ObjectSans-HeavySlanted.otf');
+}
+@font-face {
+   font-family: 'Object Sans';
+   src: url('ObjectSans-Regular.otf');
+}
+// @font-face {
+//    font-family: 'Object Sans';
+//    src: url('ObjectSans-Slanted.otf');
+// }
+
+html {
+        font-size: 1vw;
+      }
+      body {
+        background-color: #231D1D;
+      }
+      .background {
+        min-height: 100%;
+min-width: 350px;
+ width: 100%;
+ height: auto;
+ position: absolute;
+ top: 0;
+ left: 0;
+      }
+.title1 {
+  position: absolute;
+  left: 38vw;
+  top: 26vw;
+  font-family: Object Sans;
+  font-style: regular;
+  font-weight: normal;
+  font-size: 4.44vw;
+  color: #FFFFFF;
+  width: 700px;
+  z-index: 1000;
+  }
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top: 19vw;
+  left: 3vw;
+}
+/* Сайдбар ссылки */
+.sidebar a {
+  font-family: Object Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.35vw;
+line-height: 1.42vw;
+color: #45F7E1;
+  display: block;
+  padding: 2px;
+  text-decoration: none;
+}
+.sidebar a:hover:not(.active) {
+  color: white;
+}
+.logos {
+position: fixed;
+width: 8.5vw;
+height: 74.81px;
+left: 59px;
+top: 67px;
+}
+p {
+  display: block;
+  font-size: 1.67vw;
+  z-index: 1;
+  font-family: Object Sans;
+line-height: 1.74vw;
+color: #FFFFFF;
+}
+
+h1 {
+  display: block;
+  font-size: 4.44vw;
+  z-index: 1;
+  font-family: Object Sanst;
+font-weight: 1500;
+line-height: 4.58vw;
+color: #FFFFFF;
+}
+h2{
+  display: block;
+  font-size: 3.33vw;
+  z-index: 1;
+  font-family: Object Sanst;
+font-weight: 800;
+line-height: 3.47vw;
+color: #FFFFFF;
+}
+.brend {
+  font-style: bold;
+  position: absolute;
+width: 213px;
+left: 26.53vw;
+top: 70vw;
+line-height: 4.58vw;
+}
+.semant1 {
+  width: 293px;
+position: absolute;
+height: 245px;
+top: 90vw;
+font-family: Object Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 3.33vw;
+line-height: 4vw;
+color: #FFFFFF;
+left: 26.53vw;
+}
+.semant2 {
+  width: 293px;
+  height: 245px;
+  top: 90vw;
+  position: absolute;
+  font-family: Object Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3.33vw;
+  line-height: 4vw;
+  color: #FFFFFF;
+  left: 63.13vw;
+  z-index: 5;
+}
+.brend2 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 130vw;
+line-height: 3.47vw;
+}
+.brend3 {
+  position: absolute;
+left: 26.53vw;
+top: 140vw;
+}
+.brend4 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 170vw;
+line-height: 3.47vw;
+}
+.brend5 {
+  position: absolute;
+left: 26.53vw;
+top: 180vw;
+}
+
+
+
+.logo {
+  font-style: bold;
+  position: absolute;
+width: 213px;
+left: 26.53vw;
+top: 200vw;
+line-height: 4.58vw;
+}
+.logo2 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 208vw;
+line-height: 3.47vw;
+}
+.logo3 {
+  position: absolute;
+left: 26.53vw;
+top: 218vw;
+}
+.logos2 {
+  position: absolute;
+width: 22.31vw;
+left: 26.53vw;
+top: 234vw;
+}
+.logo4 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 248vw;
+line-height: 3.47vw;
+}
+.logo5 {
+  position: absolute;
+left: 26.53vw;
+top: 258vw;
+}
+.logo6 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 268vw;
+line-height: 3.47vw;
+}
+.logo7 {
+  position: absolute;
+left: 26.53vw;
+top: 278vw;
+}
+.logo8 {
+position: absolute;
+left: 26.53vw;
+top: 288vw;
+width: 21.31vw;
+}
+.logo9 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 300vw;
+line-height: 3.47vw;
+}
+.logo10 {
+  position: absolute;
+left: 26.53vw;
+top: 308vw;
+}
+.logo11 {
+  position: absolute;
+width: 50vw;
+left: 26.53vw;
+top: 320vw;
+}
+.logo12 {
+  position: absolute;
+left: 26.53vw;
+top: 333vw;
+}
+
+
+.color {
+  font-style: bold;
+  position: absolute;
+width: 202px;
+left: 26.53vw;
+top: 355vw;
+line-height: 4.58vw;
+}
+.color2 {
+  position: absolute;
+width: 37vw;
+left: 26.53vw;
+top: 367vw;
+}
+.color3 {
+  font-style: bold;
+  position: absolute;
+width: 245px;
+left: 26.53vw;
+top: 379vw;
+line-height: 3.47vw;
+}
+.color4 {
+  position: absolute;
+width: 20vw;
+left: 26.53vw;
+top: 389vw;
+}
+.color5 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 399vw;
+line-height: 3.47vw;
+}
+.color6 {
+  position: absolute;
+width: 31vw;
+left: 26.53vw;
+top: 409vw;
+}
+
+
+.typo {
+  font-style: bold;
+  position: absolute;
+width: 441px;
+left: 26.53vw;
+top: 439vw;
+line-height: 4.58vw;
+}
+.typo2 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 447vw;
+line-height: 3.47vw;
+}
+.typo3 {
+  position: absolute;
+width: 30vw;
+left: 26.53vw;
+top: 457vw;
+}
+.typo4 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 462vw;
+line-height: 3.47vw;
+}
+.typo5 {
+  position: absolute;
+width: 50vw;
+left: 26.53vw;
+top: 472vw;
+}
+
+
+.grid {
+  font-style: bold;
+  position: absolute;
+width: 202px;
+left: 26.53vw;
+top: 503vw;
+line-height: 4.58vw;
+}
+.grid2 {
+  position: absolute;
+width: 22vw;
+left: 26.53vw;
+top: 514vw;
+}
+.grid3 {
+  position: absolute;
+left: 26.53vw;
+top: 540vw;
+}
+.grid4 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 551vw;
+line-height: 3.47vw;
+}
+.grid5 {
+  position: absolute;
+width: 36vw;
+left: 26.53vw;
+top: 561vw;
+}
+.grid6 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 603vw;
+line-height: 4.58vw;
+}
+.grid7 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 611vw;
+line-height: 3.47vw;
+}
+.grid8 {
+  position: absolute;
+width: 30vw;
+left: 26.53vw;
+top: 621vw;
+}
+.grid9 {
+  position: absolute;
+width: 10vw;
+left: 26.53vw;
+top: 625vw;
+}
+.grid10 {
+  position: absolute;
+width: 10vw;
+left: 39.53vw;
+top: 625vw;
+}
+.grid11 {
+  position: absolute;
+width: 10vw;
+left: 52.53vw;
+top: 625vw;
+}
+
+
+.photo {
+  font-style: bold;
+  position: absolute;
+width: 202px;
+left: 26.53vw;
+top: 645vw;
+line-height: 4.58vw;
+}
+.photo2 {
+  position: absolute;
+left: 26.53vw;
+top: 655vw;
+}
+.photo3 {
+  position: absolute;
+left: 26.53vw;
+top: 664vw;
+}
+.photo4 {
+  position: absolute;
+width: 24vw;
+left: 26.53vw;
+top: 680vw;
+}
+.photo5 {
+  position: absolute;
+width: 10vw;
+left: 54.53vw;
+top: 680vw;
+}
+.photo6 {
+  position: absolute;
+width: 10vw;
+left: 65.53vw;
+top: 680vw;
+}
+.photo7 {
+  position: absolute;
+width: 10vw;
+left: 76.53vw;
+top: 680vw;
+}
+.photo8 {
+  position: absolute;
+left: 26.53vw;
+top: 698vw;
+}
+.photo9 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 705vw;
+line-height: 3.47vw;
+}
+.photo10 {
+  position: absolute;
+left: 26.53vw;
+top: 713vw;
+}
+.photo11 {
+  position: absolute;
+width: 19.50vw;
+left: 26.53vw;
+top: 719vw;
+}
+.photo12 {
+  position: absolute;
+width: 19.50vw;
+left: 50vw;
+top: 719vw;
+}
+.photo13 {
+  position: absolute;
+left: 26.53vw;
+top: 752vw;
+}
+.photo14 {
+  position: absolute;
+width: 19.50vw;
+left: 26.53vw;
+top: 759vw;
+}
+.photo15 {
+  position: absolute;
+width: 19.50vw;
+left: 50vw;
+top: 759vw;
+}
+.photo16 {
+  position: absolute;
+width: 19.50vw;
+left: 74vw;
+top: 759vw;
+}
+.photo17 {
+  position: absolute;
+left: 26.53vw;
+top: 792vw;
+}
+.photo18 {
+  position: absolute;
+width: 19.50vw;
+left: 26.53vw;
+top: 799vw;
+}
+.photo19 {
+  position: absolute;
+width: 19.50vw;
+left: 50vw;
+top: 799vw;
+}
+
+
+.graph {
+  font-style: bold;
+  position: absolute;
+width: 202px;
+left: 26.53vw;
+top: 835vw;
+line-height: 4.58vw;
+}
+.graph2 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 843vw;
+line-height: 3.47vw;
+}
+.graph3 {
+  position: absolute;
+left: 26.53vw;
+top: 851vw;
+}
+.graph4 {
+  position: absolute;
+width: 53vw;
+left: 26.53vw;
+top: 867vw;
+}
+.graph5 {
+  position: absolute;
+width: 13vw;
+left: 80vw;
+top: 847vw;
+}
+.graph6 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 890vw;
+line-height: 3.47vw;
+}
+.graph7 {
+  position: absolute;
+left: 26.53vw;
+top: 898vw;
+}
+.graph8 {
+  position: absolute;
+width: 11.5vw;
+left: 26.53vw;
+top: 905vw;
+}
+.graph9 {
+  position: absolute;
+width: 11.5vw;
+left: 41vw;
+top: 905vw;
+}
+.graph10 {
+  position: absolute;
+width: 11.5vw;
+left: 56vw;
+top: 905vw;
+}
+.graph11 {
+  position: absolute;
+left: 26.53vw;
+top: 924vw;
+}
+.graph12 {
+  position: absolute;
+width: 10vw;
+left: 26.53vw;
+top: 957vw;
+}
+.graph13 {
+  position: absolute;
+width: 10vw;
+left: 46vw;
+top: 957vw;
+}
+.graph14 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 969vw;
+}
+.graph15 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 978vw;
+line-height: 3.47vw;
+}
+.graph16 {
+  position: absolute;
+left: 26.53vw;
+top: 987vw;
+}
+.graph17 {
+  position: absolute;
+width: 17vw;
+left: 26.53vw;
+top: 998vw;
+}
+.graph18 {
+  position: absolute;
+width: 17vw;
+left: 47vw;
+top: 998vw;
+}
+
+
+.tone {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 1025vw;
+line-height: 4.58vw;
+}
+.tone2 {
+  position: absolute;
+left: 26.53vw;
+top: 1035vw;
+}
+
+
+.merch {
+  font-style: bold;
+  position: absolute;
+  left: 26.53vw;
+  top: 1067vw;
+  line-height: 4.58vw;
+}
+.merch2 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1081vw;
+}
+.merch3 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1081vw;
+}
+.merch4 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1105vw;
+}
+.merch5 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1105vw;
+}
+.merch6 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1140vw;
+}
+.merch7 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1140vw;
+}
+.merch8 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1192vw;
+}
+.merch9 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1187vw;
+}
+.merch10 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1216vw;
+}
+.merch11 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1215vw;
+}
+.merch12 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1266vw;
+}
+.merch13 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1266vw;
+}
+.merch14 {
+  position: absolute;
+width: 33.5vw;
+left: 26.53vw;
+top: 1293vw;
+}
+.merch15 {
+  position: absolute;
+width: 33.5vw;
+left: 62vw;
+top: 1293vw;
+}
+.merch16 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 1330vw;
+line-height: 3.47vw;
+}
+.merch17 {
+  position: absolute;
+width: 35vw;
+left: 24vw;
+top: 1340vw;
+}
+.merch18 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 26.53vw;
+top: 1390vw;
+line-height: 3.47vw;
+}
+.merch19 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 50vw;
+top: 1390vw;
+line-height: 3.47vw;
+}
+.merch20 {
+  font-style: bold;
+  position: absolute;
+width: 58vw;
+left: 26.53vw;
+top: 1435vw;
+line-height: 3.47vw;
+}
+.merch21 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 26.53vw;
+top: 1472vw;
+line-height: 3.47vw;
+}
+.merch22 {
+  font-style: bold;
+  position: absolute;
+left: 26.53vw;
+top: 1520vw;
+line-height: 3.47vw;
+}
+.merch23 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 26.53vw;
+top: 1533vw;
+line-height: 3.47vw;
+}
+.merch24 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 50vw;
+top: 1533vw;
+line-height: 3.47vw;
+}
+.merch25 {
+  font-style: bold;
+  position: absolute;
+width: 19vw;
+left: 26.53vw;
+top: 1563vw;
+line-height: 3.47vw;
+}
+
+
+.footer {
+  position: absolute;
+left: 50vw;
+top: 1613vw;
+padding-bottom: 50px;
+}
+.footer2 {
+  position: absolute;
+left: 3vw;
+top: 1613vw;
+padding-bottom: 50px;
+}

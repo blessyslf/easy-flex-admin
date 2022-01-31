@@ -1,0 +1,44 @@
+<%= form_with(model: post) do |form| %>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+        <% post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <h4 class="form__block__title1">Вид мероприятия</h4>
+    <%= form.text_field :name, :class => "form3" %>
+  </div>
+
+  <div class="field">
+      <%= form.label :category_id %>
+      <%= form.select :category_id, Category.pluck(:name, :id) %>
+  </div>
+
+
+  <div>
+    <h4 class="form__block__title4">Загрузите изображение</h4>
+  </div>
+  	<%= form.file_field :image, :class => "imgloader" %>
+  <div class="field">
+    <%= form.label :content %>
+  <%= form.cktext_area :content  %>
+    <!-- <h4 class="form__block__title3">Описание</h4></div> -->
+
+
+    <div class="field">
+        <h4 class="form__block__title2">Название</h4>
+        <%= form.text_field :title, :class => "form2" %>
+      </div>
+
+
+    <%= form.submit :class => "actions" %>
+
+
+<% end %>
